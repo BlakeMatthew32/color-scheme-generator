@@ -1,0 +1,38 @@
+<html>
+    <head>
+
+        <!-- google fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&display=swap" rel="stylesheet">
+
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="content-container">
+            <div class="selections">
+                <form id="scheme-form">
+                    <input type="color" id="seed-color" class="seed-color" value="#f55a5a">
+                    <select name="scheme-mode" id="scheme-mode" class="scheme-mode">
+                        <option value="monochrome">Monochrome</option>
+                        <option value="monochrome-dark">Monochrome Dark</option>
+                        <option value="monochrome-light">Monochrome Light</option>
+                        <option value="analogic">Analogic</option>
+                        <option value="complement">Complement</option>
+                        <option value="analogic-complement">Analogic Complement</option>
+                        <option value="triad">Triad</option>
+                        <option value="quad">Quad</option>
+                    </select>
+                    <button type="submit" class="btn">Get Color Scheme</button>
+                </form>
+            </div>
+            <main class="scheme-container" id="scheme-container">
+
+            </main>
+        </div>
+        
+        <script src="index.js"></script>
+    </body>
+</html>

@@ -1,0 +1,82 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.content-container {
+    background-color: #1F2937;
+    height: 550px;
+    width: 550px;
+    border-radius: 10px;
+    color: #f4f4f4;
+}
+
+/* form styles */
+
+.selections > form {
+    display: flex;
+    margin: 2em 0;
+    justify-content: space-around;
+}
+
+.seed-color,
+.scheme-mode,
+.btn {
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.seed-color {
+    width: 61px;
+    height: 43px;
+}
+
+.scheme-mode {
+    background-color: inherit;
+    color: inherit;
+    padding: 0 0.5em;
+}
+
+.scheme-mode > option {
+    background-color: inherit;
+}
+
+.btn {
+    font-size: 0.9rem;
+    padding: 0.5em 0.7em;
+    background-color: #3D4B60;
+    color: inherit;
+    border: none;
+}
+
+/* color scheme styles */
+
+.scheme-container {
+    display: flex;
+    text-align: center;
+}
+
+.color {
+    display: flex;
+    flex-direction: column;
+    height: 390px;
+}
+
+.color > img {
+    height: 100%;
+    width: 100%;
+}
+
