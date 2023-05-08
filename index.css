@@ -50,8 +50,8 @@ body {
     padding: 0 0.5em;
 }
 
-.scheme-mode > option {
-    background-color: inherit;
+.scheme-mode option {
+    background-color: #1F2937;
 }
 
 .btn {
